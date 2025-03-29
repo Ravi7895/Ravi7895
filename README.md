@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Ravi7895
 - 👀 I’m interested in ...Learning and doing new things
-- 🌱 I’m currently learning ...Fullstack development
-- 💞️ I’m looking to collaborate on ...frontend projects
+- 🌱 I’m a full stack developer
+- 💞️ I’m looking to collaborate on ...frontend and backend projects
 - 📫 How to reach me ...07895900447 Email-syntexravi@gmail.com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
