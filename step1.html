@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1: Personal Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="process_step1.php" method="POST">
+            <h2>Step 1: Personal Details</h2>
+            <label>Student Roll Number: <input type="text" name="roll_number" required></label>
+            <label>Name: <input type="text" name="name" required></label>
+            <label>Father's Name: <input type="text" name="fathers_name"></label>
+            <label>Mother's Name: <input type="text" name="mothers_name"></label>
+            <label>Adhar: <input type="text" name="adhar"></label>
+            <label>Course: <input type="text" name="course"></label>
+            <label>Mobile: <input type="text" name="mobile"></label>
+            <label>Course Fee: <input type="number" name="course_fee"></label>
+            <label>Paid Fee: <input type="number" name="paid_fee"></label>
+            <label>Remaining Fee: <input type="number" name="remaining_fee"></label>
+            <label>Address: <textarea name="address"></textarea></label>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>

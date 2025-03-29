@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2: Installment Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="insert.php" method="POST">
+            <h2>Step 2: Installment Details</h2>
+            <div id="installment-section">
+                <div class="installment-row">
+                    <label>Installment Number: <input type="number" name="installment_number[]"></label>
+                    <label>Amount: <input type="number" name="amount[]"></label>
+                    <label>Date: <input type="date" name="date[]"></label>
+                </div>
+            </div>
+            <button type="button" onclick="addInstallment()">Add More</button>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function addInstallment() {
+            let section = document.getElementById('installment-section');
+            let div = document.createElement('div');
+            div.className = 'installment-row';
+            div.innerHTML = `
+                <label>Installment Number: <input type="number" name="installment_number[]"></label>
+                <label>Amount: <input type="number" name="amount[]"></label>
+                <label>Date: <input type="date" name="date[]"></label>
+            `;
+            section.appendChild(div);
+        }
+    </script>
+</body>
+</html>
